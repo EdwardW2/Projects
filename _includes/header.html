@@ -17,12 +17,17 @@
         </label>
 
         <div class="trigger">
-          {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {%- endif -%}
-          {%- endfor -%}
+          <a class="page-link" href="/dev-update/">Developer Updates</a>
+          <div class="dropdown">
+            <button class="dropbtn">Docs
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="https://docs.stg.karhoo.net/v1/mobilesdk/network?swift#karhoo-mobile-sdk" target="_blank">SDK</a>
+              <a href="https://docs.stg.karhoo.net/#why-use-karhoo-api" target="_blank">API</a>
+              <a href="https://media.giphy.com/media/3ov9jCGzR1JtD8Hlni/giphy.gif" target="_blank">Sean's dropdown</a>
+            </div>
+          </div>
         </div>
       </nav>
     {%- endif -%}
