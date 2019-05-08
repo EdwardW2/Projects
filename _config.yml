@@ -17,7 +17,7 @@ title: Karhoo
 email: edward.wilkins@karhoo.com
 description: >- # this means to ignore newlines until "baseurl:"
   Developer Documentation
-baseurl: "karhoo_documentation" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://developer.karhoo.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Filt-Tech
 github_username:  Kahroo
