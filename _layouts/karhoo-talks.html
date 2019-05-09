@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="sidebar">
+  <a class="active" href="#">Home</a>
+  <a href="#">SDK</a>
+  <a href="#">API</a>
+  <a href="#">Karhoo Lighting Talk</a> 
+</div>
+
+<div class="content">
+
+  <article class="post">
+
+      <header class="post-header">
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+      </header>
+    
+      <div class="post-content">
+        {{ content }}
+      </div>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VBlFHuCzPgY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+  </article>
+</div>
