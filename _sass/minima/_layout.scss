@@ -63,6 +63,11 @@
     margin: 0;
   }
 
+  .dropdown:hover .dropbtn {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
   .dropdown-content {
     display: none;
     position: absolute;
