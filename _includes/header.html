@@ -4,30 +4,6 @@
       {%- assign default_paths = site.pages | map: "path" -%}
       {%- assign page_paths = site.header_pages | default: default_paths -%}
       <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-
-      <div class="navbar">
-        <a href="/karhoo-talks/">Talks</a>
-        <a href="/dev-update/">Blog</a>
-        <div class="dropdown">
-          <button onclick="window.location.href = '/docs/';" class="dropbtn">Docs
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <div class="row">
-              <div class="column">
-                <a href="https://docs.stg.karhoo.net/v1/mobilesdk/network?swift#karhoo-mobile-sdk">SDK</a>
-                <a href="https://docs.stg.karhoo.net/">API</a>
-                <a href="#">Sean</a>
-              </div>
-              <div class="column">
-                <a href="#">Be</a>
-                <a href="#">Like</a>
-                <a href="#">Jeeves</a>
-              </div>
-            </div>
-          </div>
-        </div> 
-      </div>
-
     </div>
+    
   </header>
