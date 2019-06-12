@@ -5,7 +5,7 @@
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
-  background-color: #030032;
+  background-color: #181547;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -24,6 +24,17 @@
     color: #ffffff;
   }
 }
+
+.site-masthead {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: $spacing-unit / 2;
+  padding-bottom: $spacing-unit / 2;
+  height: 70px;
+  width: 150px;
+  float: left;
+ }
 
 /**
  * Page content
